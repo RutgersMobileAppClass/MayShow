@@ -2,9 +2,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.beginners.myapplication.MainActivity" >
     
-    <item android:id="@+id/action_broadcast"
-        android:title="@string/action_broadcast"
-        android:icon="@drawable/ic_broadcast"
-        android:orderInCategory="100"
-        android:showAsAction="always" />
+    <!--<item android:id="@+id/action_broadcast"-->
+        <!--android:title="@string/action_broadcast"-->
+        <!--android:icon="@drawable/ic_broadcast"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:showAsAction="always" />-->
 </menu>

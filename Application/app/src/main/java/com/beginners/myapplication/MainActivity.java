@@ -6,11 +6,14 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Environment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 import com.readystatesoftware.systembartint.SystemBarTintManager;
 
@@ -36,6 +39,7 @@ public class MainActivity extends Activity implements MainFragmentInteractionLis
 
 
     private boolean mKickflipReady = false;
+
 
     private BroadcastListener mBroadcastListener = new BroadcastListener() {
         @Override
@@ -75,6 +79,9 @@ public class MainActivity extends Activity implements MainFragmentInteractionLis
         getActionBar().setDisplayShowHomeEnabled(true);
         setContentView(R.layout.activity_main);
 
+
+
+
         // This must happen before any other Kickflip interactions
         Kickflip.setup(this, SECRETS.CLIENT_KEY, SECRETS.CLIENT_SECRET, new KickflipCallback() {
             @Override
@@ -95,22 +102,48 @@ public class MainActivity extends Activity implements MainFragmentInteractionLis
                         .commit();
             }
         }
-        tintStatusBar();
+       // tintStatusBar();
 
 
+        findViewById(R.id.btn_square).setSelected(true);
+        findViewById(R.id.btn_publish).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (mKickflipReady) {
+                    startBroadcastingActivity();
+                }
+//                else {
+//                    new AlertDialog.Builder(this)
+//                            .setTitle(getString(R.string.dialog_title_not_ready))
+//                            .setMessage(getString(R.string.dialog_msg_not_ready))
+//                            .setPositiveButton(getString(R.string.dialog_ok), new DialogInterface.OnClickListener() {
+//                                @Override
+//                                public void onClick(DialogInterface dialog, int which) {
+//                                    dialog.dismiss();
+//                                }
+//                            }).show();
+            }
+        });
 
-
+        final Intent i = new Intent(this, ProfileActivity.class);
+        findViewById(R.id.btn_profile).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(i);
+            }
+        });
 
     }
 
-    private void tintStatusBar() {
-        SystemBarTintManager tintManager = new SystemBarTintManager(this);
-        // enable status bar tint
-        tintManager.setStatusBarTintEnabled(true);
-        // enable navigation bar tint
-        tintManager.setNavigationBarTintEnabled(false);
-        tintManager.setTintColor(getResources().getColor(R.color.kickflip_green));
-    }
+//    private void tintStatusBar() {
+//        SystemBarTintManager tintManager = new SystemBarTintManager(this);
+//        // enable status bar tint
+//        tintManager.setStatusBarTintEnabled(true);
+//        // enable navigation bar tint
+//        tintManager.setNavigationBarTintEnabled(false);
+////        tintManager.setTintColor(getResources().getColor(R.color.kickflip_green));
+//        tintManager.setTintColor(R.drawable.login_bg);
+//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -118,27 +151,27 @@ public class MainActivity extends Activity implements MainFragmentInteractionLis
         return super.onCreateOptionsMenu(menu);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_broadcast:
-                if (mKickflipReady) {
-                    startBroadcastingActivity();
-                } else {
-                    new AlertDialog.Builder(this)
-                            .setTitle(getString(R.string.dialog_title_not_ready))
-                            .setMessage(getString(R.string.dialog_msg_not_ready))
-                            .setPositiveButton(getString(R.string.dialog_ok), new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialog, int which) {
-                                    dialog.dismiss();
-                                }
-                            }).show();
-                }
-                return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        switch (item.getItemId()) {
+//            case R.id.action_broadcast:
+//                if (mKickflipReady) {
+//                    startBroadcastingActivity();
+//                } else {
+//                    new AlertDialog.Builder(this)
+//                            .setTitle(getString(R.string.dialog_title_not_ready))
+//                            .setMessage(getString(R.string.dialog_msg_not_ready))
+//                            .setPositiveButton(getString(R.string.dialog_ok), new DialogInterface.OnClickListener() {
+//                                @Override
+//                                public void onClick(DialogInterface dialog, int which) {
+//                                    dialog.dismiss();
+//                                }
+//                            }).show();
+//                }
+//                return true;
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
     @Override
     public void onFragmentEvent(MainFragment.EVENT event) {

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:descendantFocusability="blocksDescendants"
-    android:background="@drawable/card_btn_bg"
+    android:background="@color/white"
     android:padding="8dp"
     android:layout_margin="8dp">
 
@@ -69,7 +69,7 @@
         android:layout_toLeftOf="@id/rightTitle"
         android:text=""
         android:textStyle="bold"
-        android:textColor="@color/text"
+        android:textColor="@color/black"
         android:textSize="22sp" />
 
     <include

@@ -1,16 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/window_bg"
     tools:context="com.beginners.myapplication.StreamListFragment">
 
-    <android.support.v4.widget.SwipeRefreshLayout
-        android:id="@+id/refreshLayout"
-        android:layout_gravity="top"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:id="@+id/search"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="search here"
+                android:id="@+id/search_name"
+                android:layout_weight="3"/>
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="20"-->
+                <!--android:background="@drawable/home_search"/>-->
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEARCH"/>
+                <!--android:background="@drawable/home_search" -->
+        </LinearLayout>
+
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search">
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/refreshLayout"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v4.widget.SwipeRefreshLayout>
 
         <ListView
             android:id="@android:id/list"
@@ -21,14 +59,14 @@
             android:clipToPadding="false"
             android:divider="@android:color/transparent"
             android:dividerHeight="8dp" />
+    </FrameLayout>
 
-    </android.support.v4.widget.SwipeRefreshLayout>
 
-    <TextView
-        android:id="@android:id/empty"
-        style="@style/KFEmptyListText"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center" />
+    <!--<TextView-->
+        <!--android:id="@android:id/empty"-->
+        <!--android:textColor="@color/black_overlay"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center" />-->
 
-</FrameLayout>
+</RelativeLayout>

@@ -4,6 +4,6 @@
     <color name="black">#ff221f1f</color>
     <color name="white">#ffffff</color>
     <color name="white_overlay">#dedddd</color>
-    <color name="black_overlay">#66000000</color>
+    <color name="black_overlay">#9c000000</color>
 
 </resources>

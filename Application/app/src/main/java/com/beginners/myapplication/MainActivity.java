@@ -2,6 +2,7 @@ package com.beginners.myapplication;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
@@ -14,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.readystatesoftware.systembartint.SystemBarTintManager;
 
@@ -32,13 +34,14 @@ import io.kickflip.sdk.av.SessionConfig;
 import io.kickflip.sdk.exception.KickflipException;
 import io.kickflip.sdk.fragment.BroadcastFragment;
 
+import static io.kickflip.sdk.Kickflip.getApiClient;
 import static io.kickflip.sdk.Kickflip.isKickflipUrl;
 
 public class MainActivity extends Activity implements MainFragmentInteractionListener, StreamListFragment.StreamListFragmenListener {
     private static final String TAG = "MainActivity";
-
-
     private boolean mKickflipReady = false;
+    public static KickflipApiClient mclient;
+    private KickflipCallback cb;
 
 
     private BroadcastListener mBroadcastListener = new BroadcastListener() {
@@ -55,11 +58,6 @@ public class MainActivity extends Activity implements MainFragmentInteractionLis
         @Override
         public void onBroadcastStop() {
             Log.i(TAG, "onBroadcastStop");
-
-            // If you're manually injecting the BroadcastFragment,
-            // you'll want to remove/replace BroadcastFragment
-            // when the Broadcast is over.
-
             getFragmentManager().beginTransaction()
                     .replace(R.id.container, MainFragment.newInstance())
                     .commit();
@@ -80,20 +78,34 @@ public class MainActivity extends Activity implements MainFragmentInteractionLis
         setContentView(R.layout.activity_main);
 
 
-
-
         // This must happen before any other Kickflip interactions
-        Kickflip.setup(this, SECRETS.CLIENT_KEY, SECRETS.CLIENT_SECRET, new KickflipCallback() {
+        mclient = Kickflip.setup(this, SECRETS.CLIENT_KEY, SECRETS.CLIENT_SECRET);
+        cb = new KickflipCallback() {
             @Override
-            public void onSuccess(Response response) {
-                mKickflipReady = true;
-            }
+            public void onSuccess(Response response) {mKickflipReady = true;}
 
             @Override
-            public void onError(KickflipException error) {
+            public void onError(KickflipException error) {}
+        };
+        mclient.createNewUser("123456","123456","123456","123456", null, cb);
+        mclient.loginUser("123456","123456", cb);
+        System.out.println("====>"+mclient.getActiveUser().getDisplayName());
+//        Kickflip.setup(this, SECRETS.CLIENT_KEY, SECRETS.CLIENT_SECRET, new KickflipCallback() {
+//            @Override
+//            public void onSuccess(Response response) {
+//                mKickflipReady = true;
 
-            }
-        });
+
+//            }
+//
+//            @Override
+//            public void onError(KickflipException error) {
+//
+//            }
+//        });
+
+
+
 
         if(!handleLaunchingIntent()) {
             if (savedInstanceState == null) {
@@ -109,9 +121,10 @@ public class MainActivity extends Activity implements MainFragmentInteractionLis
         findViewById(R.id.btn_publish).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (mKickflipReady) {
-                    startBroadcastingActivity();
-                }
+                startBroadcastingActivity();
+//                if (mKickflipReady) {
+//                    startBroadcastingActivity();
+//                }
 //                else {
 //                    new AlertDialog.Builder(this)
 //                            .setTitle(getString(R.string.dialog_title_not_ready))
@@ -129,6 +142,7 @@ public class MainActivity extends Activity implements MainFragmentInteractionLis
         findViewById(R.id.btn_profile).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 startActivity(i);
             }
         });
@@ -213,6 +227,7 @@ public class MainActivity extends Activity implements MainFragmentInteractionLis
         configureNewBroadcast();
 
         Intent broadcastIntent = new Intent(this, CameraActivity.class);
+        broadcastIntent.putExtra("name", mclient.getActiveUser().getName());
         startActivity(broadcastIntent);
 
         //Kickflip.startBroadcastActivity(this, mBroadcastListener);

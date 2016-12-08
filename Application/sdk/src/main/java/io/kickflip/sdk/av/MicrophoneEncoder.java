@@ -113,6 +113,7 @@ public class MicrophoneEncoder implements Runnable {
     @Override
     public void run() {
         setupAudioRecord();
+
         mAudioRecord.startRecording();
         synchronized (mReadyFence){
             mThreadReady = true;

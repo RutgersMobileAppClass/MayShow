@@ -89,6 +89,8 @@ public class MainActivity extends Activity implements MainFragmentInteractionLis
         getActionBar().setDisplayShowHomeEnabled(true);
         setContentView(R.layout.activity_main);
 
+        Toast.makeText(this, "Welcome to Mayshow!", Toast.LENGTH_SHORT).show();
+
         match_name = new HashMap<>();
         pair_name = new HashMap<>();
 
@@ -136,7 +138,7 @@ public class MainActivity extends Activity implements MainFragmentInteractionLis
             }
         }
 
-        tintStatusBar();
+
 
 
         download.addValueEventListener(new ValueEventListener() {
@@ -161,15 +163,6 @@ public class MainActivity extends Activity implements MainFragmentInteractionLis
 
 
 
-    }
-
-    private void tintStatusBar() {
-        SystemBarTintManager tintManager = new SystemBarTintManager(this);
-        // enable status bar tint
-        tintManager.setStatusBarTintEnabled(true);
-        // enable navigation bar tint
-        tintManager.setNavigationBarTintEnabled(false);
-        tintManager.setTintColor(getResources().getColor(R.color.kickflip_green));
     }
 
     @Override

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/Avril/Desktop/MayShow/MayShow/easeui/assets"/><source path="/Users/Avril/Desktop/MayShow/MayShow/easeui/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/Avril/Desktop/MayShow/MayShow/easeui/build-types/debug/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/Avril/Desktop/MayShow/Mayshow/easeui/assets"/><source path="/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/Avril/Desktop/MayShow/Mayshow/easeui/build-types/debug/assets"/></dataSet></merger>

@@ -6,5 +6,9 @@
     {
         "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_color_highlight_material.xml",
         "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color-v23/abc_color_highlight_material.xml"
     }
 ]

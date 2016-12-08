@@ -4,20 +4,40 @@
         "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/res/anim/push_top_out2.xml"
     },
     {
-        "merged": "/Users/Avril/Desktop/MayShow/MayShow/easeui/build/intermediates/res/merged/release/anim/push_top_in.xml",
-        "source": "/Users/Avril/Desktop/MayShow/MayShow/easeui/res/anim/push_top_in.xml"
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/head_in.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/head_in.xml"
     },
     {
-        "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/push_top_in.xml",
-        "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/res/anim/push_top_in.xml"
+        "merged": "/Users/Avril/Desktop/MayShow/MayShow/easeui/build/intermediates/res/merged/release/anim/push_top_in.xml",
+        "source": "/Users/Avril/Desktop/MayShow/MayShow/easeui/res/anim/push_top_in.xml"
     },
     {
         "merged": "/Users/Avril/Desktop/MayShow/MayShow/easeui/build/intermediates/res/merged/release/anim/voice_to_icon.xml",
         "source": "/Users/Avril/Desktop/MayShow/MayShow/easeui/res/anim/voice_to_icon.xml"
     },
     {
+        "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/push_top_in.xml",
+        "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/res/anim/push_top_in.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/fade_in.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/fade_in.xml"
+    },
+    {
         "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
         "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/fade_out.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/fade_out.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/push_top_in.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/push_top_in.xml"
     },
     {
         "merged": "/Users/Avril/Desktop/MayShow/MayShow/easeui/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
@@ -30,6 +50,18 @@
     {
         "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/push_top_out.xml",
         "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/res/anim/push_top_out.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/push_bottom_in.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/push_bottom_in.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/slide_in_from_right.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/slide_in_from_right.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/hold.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/hold.xml"
     },
     {
         "merged": "/Users/Avril/Desktop/MayShow/MayShow/easeui/build/intermediates/res/merged/release/anim/fade_out.xml",
@@ -56,8 +88,20 @@
         "source": "/Users/Avril/Desktop/MayShow/MayShow/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_fade_in.xml"
+    },
+    {
         "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/slide_in_from_right.xml",
         "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/res/anim/slide_in_from_right.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/slide_in_from_left.xml",
@@ -68,20 +112,32 @@
         "source": "/Users/Avril/Desktop/MayShow/MayShow/easeui/res/anim/fade_in.xml"
     },
     {
-        "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_slide_in_bottom.xml"
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/slide_out_to_left.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/slide_out_to_left.xml"
     },
     {
-        "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/voice_to_icon.xml",
-        "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/res/anim/voice_to_icon.xml"
+        "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_slide_in_bottom.xml"
     },
     {
         "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/head_in.xml",
         "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/res/anim/head_in.xml"
     },
     {
+        "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/voice_to_icon.xml",
+        "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/res/anim/voice_to_icon.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/push_top_out.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/push_top_out.xml"
+    },
+    {
         "merged": "/Users/Avril/Desktop/MayShow/MayShow/easeui/build/intermediates/res/merged/release/anim/push_bottom_in.xml",
         "source": "/Users/Avril/Desktop/MayShow/MayShow/easeui/res/anim/push_bottom_in.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/push_bottom_out.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/push_bottom_out.xml"
     },
     {
         "merged": "/Users/Avril/Desktop/MayShow/MayShow/easeui/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
@@ -96,12 +152,28 @@
         "source": "/Users/Avril/Desktop/MayShow/MayShow/easeui/res/anim/slide_out_to_left.xml"
     },
     {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_popup_exit.xml"
+    },
+    {
         "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
         "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_slide_out_top.xml"
     },
     {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/voice_to_icon.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/voice_to_icon.xml"
+    },
+    {
         "merged": "/Users/Avril/Desktop/MayShow/MayShow/easeui/build/intermediates/res/merged/release/anim/slide_in_from_left.xml",
         "source": "/Users/Avril/Desktop/MayShow/MayShow/easeui/res/anim/slide_in_from_left.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/slide_in_from_left.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/slide_in_from_left.xml"
     },
     {
         "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/push_top_in2.xml",
@@ -140,6 +212,10 @@
         "source": "/Users/Avril/Desktop/MayShow/MayShow/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_slide_in_bottom.xml"
     },
     {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_fade_out.xml"
+    },
+    {
         "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
         "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_popup_exit.xml"
     },
@@ -150,6 +226,14 @@
     {
         "merged": "/Users/Avril/Desktop/MayShow/MayShow/easeui/build/intermediates/res/merged/release/anim/slide_out_to_right.xml",
         "source": "/Users/Avril/Desktop/MayShow/MayShow/easeui/res/anim/slide_out_to_right.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/head_out.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/head_out.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/slide_out_to_right.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/slide_out_to_right.xml"
     },
     {
         "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/slide_out_to_left.xml",
@@ -180,8 +264,20 @@
         "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_slide_out_bottom.xml"
     },
     {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/voice_from_icon.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/voice_from_icon.xml"
+    },
+    {
         "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/head_out.xml",
         "source": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/res/anim/head_out.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_slide_out_top.xml"
     },
     {
         "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
@@ -194,6 +290,18 @@
     {
         "merged": "/Users/Avril/Desktop/MayShow/MayShow/easeui/build/intermediates/res/merged/release/anim/head_out.xml",
         "source": "/Users/Avril/Desktop/MayShow/MayShow/easeui/res/anim/head_out.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/push_top_in2.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/push_top_in2.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/build/intermediates/res/merged/release/anim/push_top_out2.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Mayshow/easeui/res/anim/push_top_out2.xml"
     },
     {
         "merged": "/Users/Avril/Documents/16fall/Android/project/livestream_demo_android-master/easeui/build/intermediates/res/merged/release/anim/voice_from_icon.xml",

@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -18,6 +19,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import io.kickflip.sdk.Kickflip;
 import io.kickflip.sdk.Share;
 import io.kickflip.sdk.api.KickflipApiClient;
 import io.kickflip.sdk.api.KickflipCallback;
@@ -57,6 +59,7 @@ public class StreamListFragment extends Fragment implements AbsListView.OnItemCl
      * Views.
      */
     private StreamAdapter mAdapter;
+    private EditText search_name;
 
     private StreamAdapter.StreamAdapterActionListener mStreamActionListener = new StreamAdapter.StreamAdapterActionListener() {
         @Override
@@ -115,9 +118,9 @@ public class StreamListFragment extends Fragment implements AbsListView.OnItemCl
         mKickflip = new KickflipApiClient(getActivity(), SECRETS.CLIENT_KEY, SECRETS.CLIENT_SECRET, new KickflipCallback() {
             @Override
             public void onSuccess(Response response) {
-                if (mAdapter != null) {
-                    mAdapter.setUserName(mKickflip.getActiveUser().getName());
-                }
+//                if (mAdapter != null) {
+//                    mAdapter.setUserName(mKickflip.getActiveUser().getName());
+//                }
                 getStreams(true);
                 // Update profile display when we add that
             }
@@ -127,6 +130,20 @@ public class StreamListFragment extends Fragment implements AbsListView.OnItemCl
                 showNetworkError();
             }
         });
+
+
+//        search_name  = (EditText) getActivity().findViewById(R.id.search_name);
+//        String searchName;
+//        if (search_name.getText() != null){
+//            searchName = search_name.getText().toString();
+//        }
+//        getActivity().findViewById(R.id.btn_search).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+////                mKickflip.getStreamsByUsername(searchName, 20, 20,);
+//            }
+//        });
     }
 
     @Override
@@ -186,10 +203,10 @@ public class StreamListFragment extends Fragment implements AbsListView.OnItemCl
 
         mSwipeLayout = (SwipeRefreshLayout) view.findViewById(R.id.refreshLayout);
         mSwipeLayout.setOnRefreshListener(this);
-        mSwipeLayout.setColorScheme(R.color.kickflip_green,
-                R.color.kickflip_green_shade_2,
-                R.color.kickflip_green_shade_3,
-                R.color.kickflip_green_shade_4);
+//        mSwipeLayout.setColorScheme(R.color.kickflip_green,
+//                R.color.kickflip_green_shade_2,
+//                R.color.kickflip_green_shade_3,
+//                R.color.kickflip_green_shade_4);
 
         // Set OnItemClickListener so we can be notified on item clicks
         mListView.setOnItemClickListener(this);
@@ -230,6 +247,7 @@ public class StreamListFragment extends Fragment implements AbsListView.OnItemCl
      */
     private void getStreams(final boolean refresh) {
         if (mKickflip.getActiveUser() == null || mRefreshing) return;
+
         mRefreshing = true;
         if (refresh) mCurrentPage = 1;
         mKickflip.getStreamsByKeyword(null, mCurrentPage, ITEMS_PER_PAGE, new KickflipCallback() {

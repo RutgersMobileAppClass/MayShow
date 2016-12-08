@@ -63,6 +63,9 @@ public class CameraActivity extends ImmersiveActivity implements BroadcastListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera);
 
+        Intent i = getIntent();
+        System.out.println("==========="+i.getStringExtra("name"));
+
         mMainBroadcastListener = Kickflip.getBroadcastListener();
         Kickflip.setBroadcastListener(mMainBroadcastListener);
 

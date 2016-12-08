@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
+<merger version="3"><dataSet config="main"><source path="/Users/junjiefeng/Documents/MayShow/Application test 2/vitamio/src/androidTest/shaders"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="/Users/junjiefeng/Documents/Andriod/MayShow/Application test 2/vitamio/src/androidTest/shaders"/></dataSet></merger>
+>>>>>>> Stashed changes

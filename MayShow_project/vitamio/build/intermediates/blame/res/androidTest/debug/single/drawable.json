@@ -1,0 +1,64 @@
+[
+    {
+<<<<<<< Updated upstream
+        "merged": "/Users/junjiefeng/Documents/MayShow/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_progress_horizontal_holo_dark.xml",
+        "source": "/Users/junjiefeng/Documents/MayShow/Application test 2/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_progress_horizontal_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/junjiefeng/Documents/MayShow/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_control_selector_holo.xml",
+        "source": "/Users/junjiefeng/Documents/MayShow/Application test 2/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_control_selector_holo.xml"
+=======
+        "merged": "/Users/junjiefeng/Documents/Andriod/MayShow/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_progress_horizontal_holo_dark.xml",
+        "source": "/Users/junjiefeng/Documents/Andriod/MayShow/Application test 2/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_progress_horizontal_holo_dark.xml"
+>>>>>>> Stashed changes
+    },
+    {
+        "merged": "/Users/junjiefeng/Documents/Andriod/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_control_selector_holo.xml",
+        "source": "/Users/junjiefeng/Documents/Andriod/Application test 2/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_control_selector_holo.xml"
+    },
+    {
+        "merged": "/Users/shiwang/Desktop/Application test/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/mediacontroller_button.xml",
+        "source": "/Users/shiwang/Desktop/Application test/vitamio/build/intermediates/bundles/debug/res/drawable/mediacontroller_button.xml"
+    },
+    {
+        "merged": "/Users/junjiefeng/Documents/Andriod/MayShow/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_control_selector_holo.xml",
+        "source": "/Users/junjiefeng/Documents/Andriod/MayShow/Application test 2/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_control_selector_holo.xml"
+    },
+    {
+        "merged": "/Users/shiwang/Desktop/Application test/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_progress_horizontal_holo_dark.xml",
+        "source": "/Users/shiwang/Desktop/Application test/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_progress_horizontal_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/junjiefeng/Documents/Andriod/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_progress_horizontal_holo_dark.xml",
+        "source": "/Users/junjiefeng/Documents/Andriod/Application test 2/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_progress_horizontal_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_control_selector_holo.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Application test 2/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_control_selector_holo.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_progress_horizontal_holo_dark.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Application test 2/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_progress_horizontal_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/mediacontroller_button.xml",
+        "source": "/Users/Avril/Desktop/MayShow/Application test 2/vitamio/build/intermediates/bundles/debug/res/drawable/mediacontroller_button.xml"
+    },
+    {
+        "merged": "/Users/junjiefeng/Documents/Andriod/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/mediacontroller_button.xml",
+        "source": "/Users/junjiefeng/Documents/Andriod/Application test 2/vitamio/build/intermediates/bundles/debug/res/drawable/mediacontroller_button.xml"
+    },
+    {
+<<<<<<< Updated upstream
+        "merged": "/Users/junjiefeng/Documents/MayShow/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/mediacontroller_button.xml",
+        "source": "/Users/junjiefeng/Documents/MayShow/Application test 2/vitamio/build/intermediates/bundles/debug/res/drawable/mediacontroller_button.xml"
+=======
+        "merged": "/Users/junjiefeng/Documents/Andriod/MayShow/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/mediacontroller_button.xml",
+        "source": "/Users/junjiefeng/Documents/Andriod/MayShow/Application test 2/vitamio/build/intermediates/bundles/debug/res/drawable/mediacontroller_button.xml"
+>>>>>>> Stashed changes
+    },
+    {
+        "merged": "/Users/shiwang/Desktop/Application test/vitamio/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_control_selector_holo.xml",
+        "source": "/Users/shiwang/Desktop/Application test/vitamio/build/intermediates/bundles/debug/res/drawable/scrubber_control_selector_holo.xml"
+    }
+]

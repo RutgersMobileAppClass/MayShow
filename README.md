@@ -5,9 +5,9 @@ This is an app that building a connection between users, allowing them to start 
 ## API and Libraries
 Basically, MayShow is based on Kickflip SDK and Vitamio SDK. Firebase was included to help us manage the user’s information.
 
-For Kickflip SDK, we implements createNewUser(*), loginUser(*), startStream(), stopStream(), getStreams(), getStreamsByUser() functions from KickflipApiClient.
+For Kickflip SDK, we implements createNewUser(), loginUser(), startStream(), stopStream(), getStreams(), getStreamsByUser() functions from KickflipApiClient.
 
-For Vitamio SDK, we implements setVideoPath(*) and setMediaController(*) from widget.VideoView.
+For Vitamio SDK, we implements setVideoPath() and setMediaController() from widget.VideoView.
 
 ## Test
   * For the first time, click sign up and input any valid username and password. If you've already created a account, just click sign in.

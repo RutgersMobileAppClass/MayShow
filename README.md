@@ -2,6 +2,9 @@
 ## Description
 This is an app that building a connection between users, allowing them to start a live video stream and watch others’ recording/recorded streams. The whole structure is shown here.
 
+![Image of appStructure]
+(https://github.com/RutgersMobileAppClass/MayShow/blob/master/Project%20Report-4.jpg)
+
 ## API and Libraries
 Basically, MayShow is based on Kickflip SDK and Vitamio SDK. Firebase was included to help us manage the user’s information.
 

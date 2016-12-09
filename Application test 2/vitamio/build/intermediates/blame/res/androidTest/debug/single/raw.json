@@ -1,0 +1,23 @@
+[
+    {
+        "merged": "/Users/shiwang/Desktop/Application test/vitamio/build/intermediates/res/merged/androidTest/debug/raw/libarm.so",
+        "source": "/Users/shiwang/Desktop/Application test/vitamio/build/intermediates/bundles/debug/res/raw/libarm.so"
+    },
+    {
+        "merged": "/Users/junjiefeng/Documents/Andriod/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/raw/libarm.so",
+        "source": "/Users/junjiefeng/Documents/Andriod/Application test 2/vitamio/build/intermediates/bundles/debug/res/raw/libarm.so"
+    },
+    {
+<<<<<<< Updated upstream
+        "merged": "/Users/junjiefeng/Documents/MayShow/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/raw/libarm.so",
+        "source": "/Users/junjiefeng/Documents/MayShow/Application test 2/vitamio/build/intermediates/bundles/debug/res/raw/libarm.so"
+=======
+        "merged": "/Users/junjiefeng/Documents/Andriod/MayShow/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/raw/libarm.so",
+        "source": "/Users/junjiefeng/Documents/Andriod/MayShow/Application test 2/vitamio/build/intermediates/bundles/debug/res/raw/libarm.so"
+>>>>>>> Stashed changes
+    },
+    {
+        "merged": "/Users/Avril/Desktop/MayShow/Application test 2/vitamio/build/intermediates/res/merged/androidTest/debug/raw/libarm.so",
+        "source": "/Users/Avril/Desktop/MayShow/Application test 2/vitamio/build/intermediates/bundles/debug/res/raw/libarm.so"
+    }
+]

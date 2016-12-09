@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.beginners.myapplication.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout"
+        android:paddingTop="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:hint="search here"
+            android:textSize="20dp"
+            android:id="@+id/search_name"
+            android:layout_weight="3"/>
+
+        <ImageButton
+            android:layout_width="168dp"
+            android:layout_height="match_parent"
+            android:background="@color/black_overlay"
+            android:src="@drawable/home_search"
+            android:id="@+id/btn_search" />
+ </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/black_overlay">
+
+        <Button
+            android:id="@+id/btn_square"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="?android:attr/borderlessButtonStyle"
+            android:onClick="onTabClicked"
+            android:paddingBottom="2dip"
+            android:paddingTop="7dip"
+            android:scaleType="matrix"
+            android:drawableTop="@drawable/square"
+            android:text="square"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"/>
+
+
+
+        <Button
+            android:id="@+id/btn_publish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="?android:attr/borderlessButtonStyle"
+            android:onClick="onTabClicked1"
+            android:paddingBottom="2dip"
+            android:paddingTop="7dip"
+            android:scaleType="matrix"
+            android:drawableTop="@drawable/live"
+            android:text="Live"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"/>
+
+
+        <Button
+            android:id="@+id/btn_profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="?android:attr/borderlessButtonStyle"
+            android:onClick="onTabClicked2"
+            android:paddingBottom="2dip"
+            android:paddingTop="7dip"
+            android:scaleType="matrix"
+            android:drawableTop="@drawable/profile"
+            android:text="profile"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_above="@+id/main_bottom"></FrameLayout>
+
+
+</RelativeLayout>

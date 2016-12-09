@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<<<<<<< Updated upstream
-<merger version="3"><dataSet config="main"><source path="/Users/junjiefeng/Documents/MayShow/Application test 2/vitamio/src/main/assets"/><source path="/Users/junjiefeng/Documents/MayShow/Application test 2/vitamio/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/junjiefeng/Documents/MayShow/Application test 2/vitamio/src/debug/assets"/></dataSet></merger>
-=======
-<merger version="3"><dataSet config="main"><source path="/Users/junjiefeng/Documents/Andriod/MayShow/Application test 2/vitamio/src/main/assets"/><source path="/Users/junjiefeng/Documents/Andriod/MayShow/Application test 2/vitamio/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/junjiefeng/Documents/Andriod/MayShow/Application test 2/vitamio/src/debug/assets"/></dataSet></merger>
->>>>>>> Stashed changes
